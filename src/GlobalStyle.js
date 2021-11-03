@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     --lavender-secondary: #6A6D9E;
     --dark-primary:#16194F;
     --border-colour:#CAB6FA;
+    --border-colour2: #CAD6F1
 }
 
     *{
@@ -28,6 +29,16 @@ const GlobalStyle = createGlobalStyle`
 
     a{
       color : inherit;  
+    }
+
+    p{
+        color:var(--lavender-secondary);
+    }
+
+    .secondary-heading{
+        font-size: 2rem;
+        color : var(--purple-primary);
+        line-height: 1.9rem.
     }
 `;
 
